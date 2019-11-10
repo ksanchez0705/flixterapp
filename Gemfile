@@ -83,10 +83,10 @@ gem 'carrierwave', '~> 2.0'
 
 gem "figaro"
 
-gem "fog-aws"
-
 # fixing error Excon::Error::Socket in Instructor::CoursesController#create
 gem "mime-types"
 
 # manipulates image size and resolutonand doesnt take as much ram
 gem "mini_magick"
+
+gem "carrierwave-aws"
