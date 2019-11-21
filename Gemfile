@@ -90,3 +90,5 @@ gem "mime-types"
 gem "mini_magick"
 
 gem "carrierwave-aws"
+
+gem 'stripe'
