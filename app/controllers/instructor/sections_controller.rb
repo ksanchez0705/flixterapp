@@ -15,6 +15,10 @@ class Instructor::SectionsController < ApplicationController
     render plain: 'updated!'
   end
 
+  def new
+    @section = Section.new
+  end
+
 
   private
 
